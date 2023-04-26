@@ -1,0 +1,223 @@
+@font-face {
+    font-family: monument;
+    src: url(../assets/fonts/MonumentExtended-Regular.otf);
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(../assets/fonts/BebasNeue-Regular.otf);
+}
+
+:root {
+    --customOrange: #e54d00;
+    --customOrangeTransparent: #e54c0081;
+
+}
+
+body {
+    background-color: var(--customOrange) !important;
+    background-image: url(../assets/images/bg.png);
+    background-size: auto;
+}
+
+.monument {
+    font-family: monument;
+
+}
+
+.bebas {
+    font-family: bebas;
+}
+
+.bg-orange-transparent {
+    background-color: var(--customOrangeTransparent);
+}
+
+.bg-black-transparent {
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+nav {
+    background-image: url(../assets/images/bg-nav.png);
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    background-image: url(../assets/images/BANNER-WEB.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.fs-extra {
+    font-size: 8.5rem;
+
+}
+
+.fs-medium {
+    font-size: 4rem;
+
+}
+
+.fs-small {
+    font-size: 2.5rem;
+
+}
+
+header div h1 {
+    text-shadow: 1px 10px 1px black;
+}
+
+.btn-nav {
+    text-decoration: none;
+    color: white;
+    font-family: bebas;
+    transition: 400ms;
+}
+
+.btn-nav:hover {
+    transition: 400ms;
+    text-decoration: underline;
+    text-decoration-color: var(--customOrange);
+}
+
+.text-orange {
+    color: var(--customOrange);
+}
+
+#social a i {
+    font-size: 3rem;
+}
+
+div a i {
+    font-size: 1.5rem;
+}
+
+.hover-orange:hover {
+    color: var(--customOrange) !important;
+}
+
+.info-text {
+    color: rgb(182, 182, 182);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+#img-info {
+    filter: drop-shadow(5px 0px 1px rgba(0, 0, 0, 1));
+}
+
+#img-garra {
+    filter: drop-shadow(10px 0px 1px rgba(0, 0, 0, 1));
+}
+
+#div-pubg {
+    background-image: url(../assets/images/bg-pubg.png);
+}
+
+#div-warzone {
+    background-image: url(../assets/images/bg-wz.png);
+    ;
+}
+
+#div-rl {
+    background-image: url(../assets/images/bg-rl.png);
+    ;
+}
+
+#div-pubgmobile {
+    background-image: url(../assets/images/bg-pubgmobile.png);
+    ;
+}
+
+
+.border-bottom-orange {
+    border-bottom: 1px var(--customOrange) solid;
+}
+
+.icon-history {
+    width: 130px;
+    height: 130px;
+    border: 5px white solid;
+    border-radius: 100%;
+}
+
+#icon-1 {
+    background-image: url(../assets/images/icons-history/primer-video.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.line {
+    height: 80px;
+    width: 5px;
+    background-color: white;
+}
+
+.line-info {
+    height: auto;
+    width: 1px;
+    background-color: white;
+}
+
+#first-line {
+    left: 5%;
+    transform: rotate(-11deg);
+}
+
+#second-line {
+    left: 5%;
+}
+
+#third-line {
+    right: 5%;
+    transform: rotate(11deg);
+
+}
+
+#fourth-line {
+    right: 5%;
+}
+
+.text-small {
+    font-size: 1rem;
+}
+
+.text-big {
+    font-size: 8rem;
+}
+
+
+.text-big-phone {
+    font-size: 4rem;
+}
+
+.player-image{
+    filter: drop-shadow(5px 0px 3px rgba(0, 0, 0, 1));
+}
+
+.div-nick{
+    bottom: 3%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 80%);
+    width: auto;
+    position: absolute;
+
+}
+
+.div-nick-phone{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 80%);
+    width: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.nick-left {
+    left: -200px;
+}
+
+.nick-right {
+    right: -60%;
+}
