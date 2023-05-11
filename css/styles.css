@@ -10,7 +10,7 @@
 
 :root {
     --customOrange: #e54d00;
-    --customOrangeTransparent: #e54c0081;
+    --customOrangeTransparent: #e54c0057;
 
 }
 
@@ -44,7 +44,7 @@ nav {
 }
 
 header {
-    background-image: url(../assets/images/BANNER-WEB.png);
+    background-image: url(../assets/images/background.gif);
     background-size: cover;
     background-position: center;
 }
@@ -73,6 +73,7 @@ header div h1 {
     color: white;
     font-family: bebas;
     transition: 400ms;
+    font-size: 1.7em;
 }
 
 .btn-nav:hover {
