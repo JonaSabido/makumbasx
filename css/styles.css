@@ -44,6 +44,7 @@ nav {
 }
 
 header {
+    background-color: var(--customOrange);
     background-image: url(../assets/images/background.gif);
     background-size: cover;
     background-position: center;
@@ -196,11 +197,11 @@ div a i {
     font-size: 4rem;
 }
 
-.player-image{
+.player-image {
     filter: drop-shadow(5px 0px 3px rgba(0, 0, 0, 1));
 }
 
-.div-nick{
+.div-nick {
     bottom: 3%;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 80%);
     width: auto;
@@ -208,7 +209,7 @@ div a i {
 
 }
 
-.div-nick-phone{
+.div-nick-phone {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 80%);
     width: auto;
     position: absolute;
@@ -221,4 +222,52 @@ div a i {
 
 .nick-right {
     right: -60%;
+}
+
+.text-game {
+    display: none;
+}
+.div-game{
+    height: 300px;
+}
+.div-game:hover .logo-game{
+    display: none;
+}
+.div-game:hover .text-game{
+    display: block;
+}
+
+.item-link{
+    text-decoration: none;
+}
+
+.item-link:hover{
+     text-decoration: underline;
+}
+
+.page-title{
+    margin-top: 100px;
+}
+
+.border-orange{
+    border-top: 3px var(--customOrange) solid;
+    border-bottom: 3px var(--customOrange) solid;
+}
+
+.polygon{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 80%);
+    width: auto;
+
+}
+
+#menu-players div a{
+    color: white;
+}
+
+#menu-players div a:hover{
+    color: var(--customOrange);
+}
+
+.div-player{
+    scale: 85%;
 }
