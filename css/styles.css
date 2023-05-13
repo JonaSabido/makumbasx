@@ -50,6 +50,10 @@ header {
     background-position: center;
 }
 
+#eslogan{
+    padding: 8%;
+}
+
 .fs-extra {
     font-size: 8.5rem;
 
@@ -120,9 +124,19 @@ div a i {
     background-image: url(../assets/images/bg-pubg.png);
 }
 
+#div-pubg:hover{
+    background-image: url(../assets/images/gifs/pubg.gif);
+    background-position: 10%;
+}
+
 #div-warzone {
     background-image: url(../assets/images/bg-wz.png);
     ;
+}
+
+#div-warzone:hover{
+    background-image: url(../assets/images/gifs/wz2.gif);
+    background-position: 10%
 }
 
 #div-rl {
@@ -130,11 +144,20 @@ div a i {
     ;
 }
 
+#div-rl:hover{
+    background-image: url(../assets/images/gifs/rocket.gif);
+    background-position: 10%
+}
+
 #div-pubgmobile {
     background-image: url(../assets/images/bg-pubgmobile.png);
     ;
 }
 
+#div-pubgmobile:hover{
+    background-image: url(../assets/images/gifs/pubgmobile.gif);
+    background-position: 10%;
+}
 
 .border-bottom-orange {
     border-bottom: 1px var(--customOrange) solid;
