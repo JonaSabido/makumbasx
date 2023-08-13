@@ -47,7 +47,7 @@ const ITEMS_TIMELINE = [
     },
     {
         id: 4,
-        date: 'JULIO 2020',
+        date: '10 JULIO 2020',
         title: 'PRIMERA VICTORIA EN LA PLGS',
         imageSrc: '../makumbasx/assets/images/icons-history/primera-victoria.png',
         inner: `<video src="../makumbasx/assets/videos/PRIMERVICTORIA.mp4" 
