@@ -18,6 +18,7 @@ body {
     background-color: var(--customOrange) !important;
     background-image: url(../assets/images/bg.png);
     background-size: auto;
+    overflow-x: hidden;
 }
 
 .monument {
@@ -50,7 +51,7 @@ header {
     background-position: center;
 }
 
-#eslogan{
+#eslogan {
     padding: 8%;
 }
 
@@ -124,7 +125,7 @@ div a i {
     background-image: url(../assets/images/bg-pubg.png);
 }
 
-#div-pubg:hover{
+#div-pubg:hover {
     background-image: url(../assets/images/gifs/pubg.gif);
     background-position: 10%;
 }
@@ -134,7 +135,7 @@ div a i {
     ;
 }
 
-#div-warzone:hover{
+#div-warzone:hover {
     background-image: url(../assets/images/gifs/wz2.gif);
     background-position: 10%
 }
@@ -144,7 +145,7 @@ div a i {
     ;
 }
 
-#div-rl:hover{
+#div-rl:hover {
     background-image: url(../assets/images/gifs/rocket.gif);
     background-position: 10%
 }
@@ -154,7 +155,7 @@ div a i {
     ;
 }
 
-#div-pubgmobile:hover{
+#div-pubgmobile:hover {
     background-image: url(../assets/images/gifs/pubgmobile.gif);
     background-position: 10%;
 }
@@ -164,22 +165,40 @@ div a i {
 }
 
 .icon-history {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     border: 5px white solid;
-    border-radius: 100%;
+    border-radius: 50%;
+    flex: 0 0 auto;
 }
 
-#icon-1 {
-    background-image: url(../assets/images/icons-history/primer-video.png);
-    background-size: cover;
-    background-position: center;
+.icon-history-secondary {
+    width: 90px;
+    height: 90px;
+    border: 5px white solid;
+    border-radius: 50%;
+    flex: 0 0 auto;
+    margin: 30px 20px 0px 20px;
+    filter: blur(2px);
+}
+
+.item-timeline-principal {
+    z-index: 1;
+}
+
+#huevex {
+    margin-left: calc(100vw - 51% - 75px);
+    display: flex;
+    width: 100%;
+    z-index: -1;
 }
 
 .line {
-    height: 80px;
-    width: 5px;
+    height: 3px;
+    width: 100%;
+    z-index: -2;
     background-color: white;
+    bottom: 50%;
 }
 
 .line-info {
@@ -250,47 +269,67 @@ div a i {
 .text-game {
     display: none;
 }
-.div-game{
+
+.div-game {
     height: 350px;
 }
-.div-game:hover .logo-game{
+
+.div-game:hover .logo-game {
     display: none;
 }
-.div-game:hover .text-game{
+
+.div-game:hover .text-game {
     display: block;
 }
 
-.item-link{
+.item-link {
     text-decoration: none;
 }
 
-.item-link:hover{
-     text-decoration: underline;
+.item-link:hover {
+    text-decoration: underline;
 }
 
-.page-title{
+.page-title {
     margin-top: 100px;
 }
 
-.border-orange{
+.border-orange {
     border-top: 3px var(--customOrange) solid;
     border-bottom: 3px var(--customOrange) solid;
 }
 
-.polygon{
+.polygon {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 80%);
     width: auto;
 
 }
 
-#menu-players div a{
+#menu-players div a {
     color: white;
 }
 
-#menu-players div a:hover{
+#menu-players div a:hover {
     color: var(--customOrange);
 }
 
-.div-player{
+.div-player {
     scale: 85%;
+}
+
+.timeline-button {
+    width: 100px !important;
+    font-size: 30px !important;
+    color: white !important;
+    border: 1px white solid !important;
+    font-weight: bold;
+}
+
+.timeline-button:hover {
+    background-color: black !important;
+    border: 1px black solid !important;
+}
+
+.one-em{
+    font-size: 1em;
 }
