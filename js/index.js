@@ -13,7 +13,7 @@ const ITEMS_TIMELINE = [
         id: 0,
         date: 'MARZO 2020',
         title: 'PRIMER VIDEO EN NUESTRO CANAL DE YOUTUBE',
-        imageSrc: '../assets/images/icons-history/primer-video.png',
+        imageSrc: '../makumbasx/assets/images/icons-history/primer-video.png',
         inner: `<iframe width="560" height="315" src="https://www.youtube.com/embed/kLhfFWDfbv4" title="YouTube video player"
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
                 web-share"allowfullscreen></iframe>`
@@ -22,7 +22,7 @@ const ITEMS_TIMELINE = [
         id: 1,
         date: '28 MARZO 2020',
         title: 'SE CREA LA SERIE "MEJORES MOMENTOS PUBG LITE"',
-        imageSrc: '../assets/images/icons-history/mejores-pubglite.png',
+        imageSrc: '../makumbasx/assets/images/icons-history/mejores-pubglite.png',
         inner: `<iframe width="560" height="315" src="https://www.youtube.com/embed/--e4-kitukc" title="YouTube video player" 
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
                 web-share" allowfullscreen></iframe>`
@@ -31,7 +31,7 @@ const ITEMS_TIMELINE = [
         id: 2,
         date: '7 MAYO 2020',
         title: 'SE CREA LA SERIE "CORAJES, LLOROS Y MÁS PUBG LITE"',
-        imageSrc: '../assets/images/icons-history/corajes-pubglite.png',
+        imageSrc: '../makumbasx/assets/images/icons-history/corajes-pubglite.png',
         inner: `<iframe width="560" height="315" src="https://www.youtube.com/embed/Q9tgRrWqAfc" title="YouTube video player" 
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
                 web-share" allowfullscreen></iframe>`
@@ -40,7 +40,7 @@ const ITEMS_TIMELINE = [
         id: 3,
         date: '7 JUNIO 2020',
         title: 'ESPECIAL CAPITULO 10 DE LA SERIE "MEJORES MOMENTOS PUBG LITE"',
-        imageSrc: '../assets/images/icons-history/especial-pubglite.png',
+        imageSrc: '../makumbasx/assets/images/icons-history/especial-pubglite.png',
         inner: `<iframe width="560" height="315" src="https://www.youtube.com/embed/exlFLRujkLY" title="YouTube video player" 
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
                 web-share" allowfullscreen></iframe>`
@@ -49,16 +49,16 @@ const ITEMS_TIMELINE = [
         id: 4,
         date: 'JULIO 2020',
         title: 'PRIMERA VICTORIA EN LA PLGS',
-        imageSrc: '../assets/images/icons-history/primera-victoria.png',
-        inner: `<video src="../assets/videos/PRIMERVICTORIA.mp4" 
-                controls poster="../assets/images/posters/PORTADA1VICTORIA.png" 
+        imageSrc: '../makumbasx/assets/images/icons-history/primera-victoria.png',
+        inner: `<video src="../makumbasx/assets/videos/PRIMERVICTORIA.mp4" 
+                controls poster="../makumbasx/assets/images/posters/PORTADA1VICTORIA.png" 
                 class="w-50"></video>`
     },
     {
         id: 5,
         date: '6 NOVIEMBRE 2020',
         title: 'SUBIMOS EL VIDEO MÁS VISITADO DE NUESTRO CANAL',
-        imageSrc: '../assets/images/icons-history/videomasvisto.png',
+        imageSrc: '../makumbasx/assets/images/icons-history/videomasvisto.png',
         inner: `<iframe width="560" height="315" src="https://www.youtube.com/embed/vLqBD2U7LNc" title="YouTube video player" 
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
                 web-share" allowfullscreen></iframe>`
@@ -67,7 +67,7 @@ const ITEMS_TIMELINE = [
         id: 6,
         date: '26 ABRIL 2021',
         title: 'FIN DE LA SERIE "MEJORES MOMENTOS PUBG LITE"',
-        imageSrc: '../assets/images/icons-history/final-mejoresmomentoslite.png',
+        imageSrc: '../makumbasx/assets/images/icons-history/final-mejoresmomentoslite.png',
         inner: `<iframe width="560" height="315" src="https://www.youtube.com/embed/tlyTsbzmfcw" title="YouTube video player" 
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
                 web-share" allowfullscreen></iframe>`
@@ -76,7 +76,7 @@ const ITEMS_TIMELINE = [
         id: 7,
         date: '8 DE ENERO 2023',
         title: 'SE CREA LA SERIE "MEJORES MOMENTOS WARZONE 2.0"',
-        imageSrc: '../assets/images/icons-history/mejores-wz.png',
+        imageSrc: '../makumbasx/assets/images/icons-history/mejores-wz.png',
         inner: `<iframe width="560" height="315" src="https://www.youtube.com/embed/zb6S5OY_i1U" title="YouTube video player" 
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
                 web-share" allowfullscreen></iframe>`
